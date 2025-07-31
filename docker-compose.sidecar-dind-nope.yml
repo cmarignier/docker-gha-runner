@@ -9,6 +9,7 @@ services:
     env_file:
       - container-vars.env
     volumes:
+      - githubfolder:/home/github/actions
       - docker-certs-client:/certs/client:ro
     depends_on:
       docker:
@@ -31,6 +32,7 @@ services:
       start_period: 10s
 
 volumes:
+  githubfolder:
   docker-certs-client:
   docker-certs-ca:
   docker-var-lib-docker:

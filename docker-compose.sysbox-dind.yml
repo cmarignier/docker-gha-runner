@@ -5,7 +5,7 @@ services:
       context: .
       args:
         OS: linux
-        VERSION: 2.324.0
+        VERSION: 2.327.1
     runtime: sysbox-runc
     restart: always
     environment:
