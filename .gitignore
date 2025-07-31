@@ -26,6 +26,7 @@ docker-compose.override.yml
 
 # Environment variables file (secrets)
 .env
+container-vars.env
 
 # VSCode settings
 .vscode/
