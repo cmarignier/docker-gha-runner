@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtualenv
+venv/
+env/
+ENV/
+
+# Docker
+*.log
+data/
+registry-data/
+
+# Docker Compose override (local config)
+docker-compose.override.yml
+
+# Environment variables file (secrets)
+.env
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
